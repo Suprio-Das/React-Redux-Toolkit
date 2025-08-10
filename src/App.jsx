@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       <button onClick={handleDecrement}>-</button>
-      <p>Count: </p>
+      <p>Count: {count}</p>
       <button onClick={handleIncrement}>+</button>
     </div>
   )

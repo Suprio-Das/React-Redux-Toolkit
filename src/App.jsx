@@ -10,6 +10,10 @@ function App() {
     dispatch(increment());
   }
   function handleDecrement() {
+    if (count == 0) {
+      dispatch(reset());
+      return;
+    }
     dispatch(decrement());
   }
   function handleReset() {

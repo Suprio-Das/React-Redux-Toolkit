@@ -1,9 +1,17 @@
 import './App.css'
 
 function App() {
+  function handleIncrement() {
+
+  }
+  function handleDecrement() {
+
+  }
   return (
     <div>
-      <h1>Hello from React-Redux-Toolkit.</h1>
+      <button onClick={handleDecrement}>-</button>
+      <p>Count: </p>
+      <button onClick={handleIncrement}>+</button>
     </div>
   )
 }

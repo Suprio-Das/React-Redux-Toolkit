@@ -6,6 +6,7 @@ This is a simple vite app that showcases the Redux Toolkit implementation. Here 
 - Increment
 - Decrement
 - Increment By Amount
+- Reset State
 ### Technologies:
 1. Vite
 2. Redux
